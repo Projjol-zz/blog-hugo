@@ -1,0 +1,6 @@
+baseurl = "http://blog.projjol.me/"
+relativeURLs = true
+title = "Macrocosm"
+languageCode = "en-us"
+theme = "simple-a"
+
