@@ -72,7 +72,7 @@ Therefore, φ(_n_) = 91 - (7 + 13 - 1) =  72
 
 This value calculated for Euler's totient is kept a secret.
 
-Now, an integer _e_ needs to be obtained such that 1 > _e_ < φ(_n_) and gcd(_e_, φ(_n_)) =1, i.e _e_ & φ(_n_) are coprime.
+Now, an integer _e_ needs to be obtained such that 1 < _e_ < φ(_n_) and gcd(_e_, φ(_n_)) =1, i.e _e_ & φ(_n_) are coprime.
 Let, 
     
     e = 11
@@ -84,14 +84,10 @@ Lolwat?
 
 # Modular Multiplicative Inverse
 Let’s say we have a number _n_. The multiplicative inverse of _n_ would be _n_^-1, such that _n_*_n_^-1 = 1
-In modular mathematics, the modular inverse of _n_(mod _c_) is _n_^-1 for some number _c_. 
-
-We have,
-    
-    n * n^-1 = 1 (mod c) = 1 
+In modular mathematics, the modular inverse of _n_(mod _c_) is _n_^-1 for some number _c_. What we're looking for is a number x such that _n_*_x_ mod _c_ = 1
 Therefore, 
     
-    n * n(mod c) = 1
+    n * x(mod c) = 1
 
 All of this is fine, but how do we calculate how to actually calculate the modular inverse?
     
